@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GitText : MonoBehaviour
 {
-    public string git = "Second";
+    public string git = "3";
     void Start()
     {
         
