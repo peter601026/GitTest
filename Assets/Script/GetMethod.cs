@@ -28,9 +28,8 @@ public class GetMethod : MonoBehaviour
                 Debug.Log(responseText);
 
                 var responseJson = JsonUtility.FromJson<WeatherData>(responseText);
-                Debug.Log(responseJson.records.location[0].weatherElement[0].time[0].parameter.parameterName);
-                
+                Debug.Log(responseJson.records.location[0].weatherElement[0].time[0].parameter.parameterName);               
             }
         }
-    }   
+    }
 }
